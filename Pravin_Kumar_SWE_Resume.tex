@@ -1,0 +1,81 @@
+\documentclass[10pt,a4paper]{article}
+
+% ATS-friendly, single-column resume for a software engineering fresher.
+\usepackage[a4paper,margin=0.58in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\definecolor{sectioncolor}{RGB}{25,55,90}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=1.15em,itemsep=1pt,topsep=2pt,parsep=0pt}
+\titleformat{\section}{\large\bfseries\color{sectioncolor}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{7pt}{3pt}
+\urlstyle{same}
+
+\begin{document}
+\small
+
+\begin{center}
+    {\LARGE \textbf{PRAVIN KUMAR A}}\\[3pt]
+    \textbf{Full Stack Developer}\\[3pt]
+    Chennai, Tamil Nadu \;|\;
+    \href{mailto:pravinkumaramirtha@gmail.com}{pravinkumaramirtha@gmail.com}
+    \;|\; 8667270905\\[2pt]
+    \href{https://github.com/pravinkumarAmirthalingam}{GitHub}
+    \;|\;
+    \href{https://www.linkedin.com/in/pravinnamirtha}{LinkedIn}
+\end{center}
+
+\section{Education}
+\textbf{Saveetha Engineering College} \hfill Expected 2027\\
+B.E./B.Tech in Artificial Intelligence and Data Science
+
+\section{Technical Skills}
+\textbf{Languages:} Java, JavaScript, Python, C\\
+\textbf{Backend:} Spring Boot, Spring Security, Spring Data JPA, Hibernate, REST APIs\\
+\textbf{Frontend:} React.js, HTML5, CSS3, Vite\\
+\textbf{Databases:} MySQL, SQL\\
+\textbf{Core CS:} Data Structures and Algorithms, Object-Oriented Programming, DBMS\\
+\textbf{Tools and Deployment:} Git, GitHub, Postman, VS Code, Vercel, Railway, Render
+
+\section{Projects}
+
+\textbf{Chronic Kidney Disease Prediction Using Federated Learning}
+\hfill
+\href{https://github.com/pravinkumarAmirthalingam/Federated-Learning-Based-Prediction-of-Chronic-Kidney-Diseases}{GitHub}\\
+\textit{Python, TensorFlow, Flask, Federated Learning}
+\begin{itemize}
+    \item Developed and deployed a CKD prediction application using federated learning to support decentralized model training without sharing raw patient data.
+    \item Implemented a Federated Averaging (FedAvg) workflow across multiple clients, alongside data preprocessing and feature engineering.
+    \item Evaluated model performance to assess predictive capability.
+\end{itemize}
+
+\textbf{Smart Public Grievance Management System}
+\hfill
+\href{https://github.com/pravinkumarAmirthalingam/Smart-Public-Grievance-Managment-System}{GitHub}
+\;|\;
+\href{https://smart-public-grievance-managment.vercel.app}{Live App}\\
+\textit{React.js, Spring Boot, MySQL, Python, NLP}
+\begin{itemize}
+    \item Building a full-stack civic-tech platform for public grievance submission and resolution tracking using React.js, Spring Boot, and MySQL.
+    \item Designing NLP capabilities for Tanglish grievance classification, duplicate detection, and department recommendation.
+\end{itemize}
+
+\textbf{Hospital Resource Optimization System}\\
+\textit{Java, Spring Boot, MySQL, React}
+\begin{itemize}
+    \item Implemented hospital resource CRUD APIs and designed the relational database schema for a hospital resource management system.
+    \item Planning extensions for bed availability, admission workflows, emergency routing, and demand forecasting.
+\end{itemize}
+
+\section{Additional Information}
+\textbf{Languages:} English, Tamil
+
+\end{document}
